@@ -14,16 +14,16 @@ function renderCartItem(item) {
 
     let title;
 
-    let price;
+    let price = '500.00' && '55.00';
 
-    let count;
+    let count = 5 && 2;
 
 
-    if (title = 'Пицца' ) {
+    /*if (title = 'Пицца' ) {
         price == '500.00' && count == 5;
     } else if (title = 'Эчпочмак') {
         price == '55.00' && count == 2;
-    }
+    }*/
 
 
     // сформируйте строку itemCountText вида:
