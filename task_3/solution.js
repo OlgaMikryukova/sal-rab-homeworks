@@ -14,15 +14,15 @@ function renderCartItem(item) {
 
     let title;
 
-    let price = null;
+    let price;
 
-    let count = null;
+    let count;
 
-   /* if (id = '2') {
-        price == 500 && count == 5;
-    } else if (id = '1') {
-        price == 55 && count == 2;
-    } */
+    if (title = 'Пицца' ) {
+        price == 500.00 && count == 5;
+    } else if (title = 'Эчпочмак') {
+        price == 55.00 && count == 2;
+    }
 
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
