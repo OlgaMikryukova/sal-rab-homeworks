@@ -14,9 +14,9 @@ function renderCartItem(item) {
 
     let title = 'Пицца';
 
-    let price = '500';
+    let price;
 
-    let count = 5;
+    let count;
 
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
