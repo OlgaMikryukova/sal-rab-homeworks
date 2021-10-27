@@ -14,17 +14,17 @@ function renderCartItem(item) {
 
     let title;
 
-    let price = '500.00';
+    let price;
 
-    let count = 5;
+    let count;
 
-    /* Вторая идея решения, если убрать выше значения price и count
+
     if (title = 'Пицца' ) {
-        price == 500.00 && count == 5;
+        price == '500.00' && count == 5;
     } else if (title = 'Эчпочмак') {
-        price == 55.00 && count == 2;
+        price == '55.00' && count == 2;
     }
-    Но тогда в ошибка говорит 0 и null*/
+
 
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
