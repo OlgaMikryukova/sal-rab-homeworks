@@ -10,6 +10,8 @@ function renderCartItem(item) {
     // price - цена
     // count - количество
 
+    let product =  {id: id, title: title, count: count, price: price};
+   
     let id = 1;
 
     let title = 'Пицца';
