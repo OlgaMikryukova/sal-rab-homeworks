@@ -14,7 +14,7 @@ function renderCartItem(item) {
 
     let title;
 
-    let price = 500;
+    let price = 500.00;
 
     let count = 5;
 
