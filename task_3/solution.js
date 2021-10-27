@@ -14,9 +14,9 @@ function renderCartItem(item) {
 
     let title;
 
-    let price = 500.00;
+    let price = null;
 
-    let count = 5;
+    let count = null;
 
    /* if (id = '2') {
         price == 500 && count == 5;
