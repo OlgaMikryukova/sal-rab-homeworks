@@ -43,7 +43,7 @@ function renderCartItem(item) {
 
     itemCountText = itemCountText + count;
 
-    itemCountText = itemCountText + ` x `;
+    itemCountText = itemCountText + ` * `;
 
     itemCountText = itemCountText + price;
 
