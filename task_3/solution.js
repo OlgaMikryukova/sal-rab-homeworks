@@ -18,6 +18,12 @@ function renderCartItem(item) {
 
     let count;
 
+    if (product = 'Пицца') {
+        price == 500 && count == 5;
+    } else if (product = 'Эчпочмак') {
+        price == 55 && count == 2;
+    }
+
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
     // например,
