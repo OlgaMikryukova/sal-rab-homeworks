@@ -53,7 +53,7 @@ function renderCartItem(item) {
 
     itemCountText = itemCountText + sum;
 
-    itemCountText = itemCountText + ` ₽ `;
+    itemCountText = itemCountText + ` ₽`;
 
     // Конец решения задания №3.1.
 
