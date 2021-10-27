@@ -18,10 +18,10 @@ function renderCartItem(item) {
 
     let count;
 
-    if (id = '1') {
-        price = 500 && count = 5;
-    } else if (id = '2') {
-        price = 55 && count = 2;
+    if (id = '2') {
+        price == 500 && count == 5;
+    } else if (id = '1') {
+        price == 55 && count == 2;
     }
 
     // сформируйте строку itemCountText вида:
