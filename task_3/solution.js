@@ -9,10 +9,6 @@ function renderCartItem(item) {
     // title - наименование
     // price - цена
     // count - количество
-   
-    let id = {'1' , '2'} ;
-
-    let title = {'Пицца' , 'Эчпочмак'} ;
 
     let price = '500.00' && '55.00';
 
