@@ -10,15 +10,6 @@ function renderCartItem(item) {
     // price - цена
     // count - количество
 
-
-
-    /*if (title = 'Пицца' ) {
-        price == '500.00' && count == 5;
-    } else if (title = 'Эчпочмак') {
-        price == '55.00' && count == 2;
-    }*/
-
-
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
     // например,
