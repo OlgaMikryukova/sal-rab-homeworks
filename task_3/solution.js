@@ -10,9 +10,6 @@ function renderCartItem(item) {
     // price - цена
     // count - количество
 
-    let price = [500.00, 55.00];
-
-    let count = [5, 2];
 
 
     /*if (title = 'Пицца' ) {
