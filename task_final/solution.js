@@ -53,7 +53,7 @@ function sendRequest(name, phone, address, goods, sum) {
 
     let data = {client: client, order: order, goods: goods};
 
-    let jsonData = JSON.stringify(data);
+    let jsonData = JSON.stringify({data: data});
 
     return jsonData;
 
