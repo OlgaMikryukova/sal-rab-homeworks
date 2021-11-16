@@ -53,7 +53,7 @@ function sendRequest(name, phone, address, goods, sum) {
 
    // let data = {client: {name, phone}, order: {address, sum}, goods: goods};
 
-    data.order.address = "ул. " + address.street + ", дом " + address.house + ", " + address.entrance + "подъезд, " + address.entrance + " этаж, кв " + address.flat;
+   // data.order.address = "ул. " + address.street + ", дом " + address.house + ", " + address.entrance + "подъезд, " + address.entrance + " этаж, кв " + address.flat;
 
    // data.order.sum = sum;
 
