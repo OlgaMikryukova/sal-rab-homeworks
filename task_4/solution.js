@@ -9,7 +9,7 @@ function parseProducts(json) {
     // Верните как результат функции свойство products объекта data
 
     let data = JSON.parse(json);
-    return data.product;
+    return data.products;
 }
 
 function renderProductsCards(json) {
@@ -19,7 +19,7 @@ function renderProductsCards(json) {
     products = parseProducts(json); 
 
     let length = products.length
-    for (let i = 0; i < length - 1; i += 1) {
+    for (let i = 0; i < length; i += 1) {
         addProduct(products[i]);
     }
 
